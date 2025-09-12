@@ -66,16 +66,22 @@ def registration(request):
         )
     if not username_exist:
         user = User.objects.create_user(
-            username = username,
-            first_name = first_name,
-            last_name = last_name,
-            password = password,
-            email = email
+            username=username,
+            first_name=first_name,
+            last_name=last_name,
+            password=password,
+            email=email
         )
         login(request, user)
-        return JsonResponse({"userName": username, "status": "Authenticated"})
+        return JsonResponse({
+            "userName": username, 
+            "status": "Authenticated"
+        })
     else:
-        return JsonResponse({"userName": username, "error": "Already Registered"})
+        return JsonResponse({
+            "userName": username,
+            "error": "Already Registered"
+        })
 
 #
 # Create a `logout_request` view to handle sign out request
