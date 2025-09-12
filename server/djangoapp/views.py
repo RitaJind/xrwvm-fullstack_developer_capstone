@@ -48,7 +48,6 @@ def logout_user(request):
     return JsonResponse({"userName": ""})
 
 
-
 @csrf_exempt
 def registration(request):
     data = json.loads(request.body)
@@ -66,13 +65,13 @@ def registration(request):
             f"{username} is new user"
         )
     if not username_exist:
-        user = User.objects.create_user(
-            username=username,
-            first_name=first_name,
-            last_name=last_name,
-            password=password,
-            email=email
-        )
+            user = User.objects.create_user(
+                username=username,
+                first_name=first_name,
+                last_name=last_name,
+                password=password,
+                email=email
+            )
         login(request, user)
         return JsonResponse({"userName": username, "status": "Authenticated"})
     else:
