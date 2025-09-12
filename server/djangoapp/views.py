@@ -67,14 +67,13 @@ def registration(request):
         user = User.objects.create_user(
             username=username, first_name=first_name,
             last_name=last_name, password=password,
-            email=email
-        )
+            email=email)
         login(request, user)
         return JsonResponse({"userName": username, "status": "Authenticated"})
     else:
         return JsonResponse({"userName": username, "error": "Already Registered"})
 
-        
+#
 # Create a `logout_request` view to handle sign out request
 # def logout_request(request):
 # ...
@@ -84,7 +83,8 @@ def registration(request):
 # def registration(request):
 # ...
 
-#Update the `get_dealerships` render list of dealerships all by default, particular state if state is passed
+
+# Update the `get_dealerships` render list of dealerships all by default, particular state if state is passed
 
 
 def get_dealerships(request, state="All"):
