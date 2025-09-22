@@ -15,8 +15,8 @@ COPY . /app/
 EXPOSE 8000
 
 # Create entrypoint script
-RUN echo '#!/bin/bash\ncd server\npython manage.py migrate\npython manage.py collectstatic --noinput\nexec "$@"' > /app/entrypoint.sh
+RUN echo '#!/bin/bash\ncd /app/server\npython manage.py migrate\npython manage.py collectstatic --noinput\nexec "$@"' > /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "--chdir", "server", "djangoproj.wsgi"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "djangoproj.wsgi"]
