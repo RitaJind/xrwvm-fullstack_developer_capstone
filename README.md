@@ -59,7 +59,7 @@ cd server/frontend && npm install && npm start
 
 **Microservices:** React SPA ↔ Django API ↔ Node.js API ↔ MongoDB + Sentiment Analysis Service (Flask/NLTK)
 
-**Tech Stack:** Django 5.0+ | React 18+ | Node.js 18+ | MongoDB 7.0+ | Python 3.9+ | Docker
+**Technology Stack:** Django 5.0+ | React 18+ | Node.js 18+ | MongoDB 7.0+ | Python 3.9+ | Docker
 
 ##  API Endpoints Documentation
 
