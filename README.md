@@ -61,7 +61,7 @@ cd server/frontend && npm install && npm start
 
 **Tech Stack:** Django 5.0+ | React 18+ | Node.js 18+ | MongoDB 7.0+ | Python 3.9+ | Docker
 
-##  API Documentation
+##  API Endpoints Documentation
 
 **Key Endpoints:**
 - `GET /djangoapp/get_dealers/` - Fetch all dealerships
