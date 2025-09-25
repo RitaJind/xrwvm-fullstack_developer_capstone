@@ -24,6 +24,37 @@ Full-stack microservices application that enables users to explore car dealershi
 - 👤 **User Management** - Registration, authentication, and profile management
 - 📱 **Responsive Design** - Mobile-optimized interface with Bootstrap styling
 
+### 🎯 Live Application Demo
+
+<img src="screenshots/deployed_landingpage.png" alt="Landing Page" width="60%">
+
+*Main landing page with dealership directory access*
+
+### 📸 Application Screenshots
+
+#### Company Information
+<img src="screenshots/about_us.png" alt="About Us" width="60%">
+
+*About us page showcasing company leadership and mission*
+
+<img src="screenshots/contact_us.png" alt="Contact Us" width="60%">
+
+*Contact information and customer service details*
+
+#### Dealership Search & Filtering
+<img src="screenshots/dealersbystate.png" alt="Dealers by State" width="60%">
+
+*Filter dealerships by state with comprehensive dealer information*
+
+#### Review System with Sentiment Analysis
+<img src="screenshots/add_review.png" alt="Add Review" width="60%">
+
+*Customer review submission with car details and purchase information*
+
+<img src="screenshots/backuptwo.png" alt="Sentiment Analysis" width="60%">
+
+*AI-powered sentiment analysis displaying positive, negative, and neutral review classifications*
+
 ## 🏃‍♂️ Quick Start
 
 **Prerequisites:** Python 3.9+, Node.js 18+, MongoDB 7.0+
