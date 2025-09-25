@@ -47,7 +47,7 @@ Full-stack microservices application that enables users to explore car dealershi
 *Filter dealerships by state with comprehensive dealer information*
 
 #### Review System with Sentiment Analysis
-<img src="screenshots/add_review.png" alt="Add Review" width="60%">
+<img src="screenshots/Backupdeployed_add_review.png" alt="Add Review" width="60%">
 
 *Customer review submission with car details and purchase information*
 
