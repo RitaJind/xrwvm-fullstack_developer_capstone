@@ -9,7 +9,7 @@ A **full-stack car dealership platform** built with Django, React, Node.js, and 
 ![Python](https://img.shields.io/badge/Python-3.9+-yellow.svg)
 ![Docker](https://img.shields.io/badge/Docker-24+-blue.svg)
 
-## 🚀 Project Overview
+##  Project Overview
 
 Full-stack microservices application that enables users to explore car dealerships, read and post reviews, and discover vehicle inventory across different locations. Features Django REST API, React frontend, Node.js microservice, and AI-powered sentiment analysis.
 
@@ -30,7 +30,7 @@ Full-stack microservices application that enables users to explore car dealershi
 
 *Main landing page with dealership directory access*
 
-### 📸 Application Screenshots
+###  Application Screenshots
 
 #### Company Information
 <img src="screenshots/about_us.png" alt="About Us" width="60%">
@@ -55,7 +55,7 @@ Full-stack microservices application that enables users to explore car dealershi
 
 *AI-powered sentiment analysis displaying positive, negative, and neutral review classifications*
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 **Prerequisites:** Python 3.9+, Node.js 18+, MongoDB 7.0+
 
@@ -86,7 +86,7 @@ cd server/frontend && npm install && npm start
 
 **Admin Features:** Dealership Management, Inventory Control, Review Moderation, User Management, Analytics Dashboard
 
-## 🏗️ Architecture
+##  Architecture
 
 **Microservices:** React SPA ↔ Django API ↔ Node.js API ↔ MongoDB + Sentiment Analysis Service (Flask/NLTK)
 
@@ -103,7 +103,7 @@ cd server/frontend && npm install && npm start
 - `POST /reviews` - Node.js: Add new review
 - `POST /analyze/{text}` - Sentiment analysis
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Backend testing
@@ -116,8 +116,8 @@ cd server/frontend && npm test
 curl -X GET http://localhost:8000/djangoapp/get_dealers/
 ```
 
-## 👨‍💻 About the Developer
+##  About the Developer
 
-**Rita Jindal** - Full Stack Developer  
+**Rita Jindal** - Software Engieer  
 
-*Passionate about building modern, user-friendly web applications with clean code and efficient architecture. Experienced in React ecosystem, state management, and responsive design principles.*
+*Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native, and full-stack software development.*
