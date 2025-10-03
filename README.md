@@ -1,4 +1,4 @@
-# 🚗 Car Dealership Network - Full Stack Application
+#  Car Dealership Network - Full Stack Application
 
 A **full-stack car dealership platform** built with Django, React, Node.js, and MongoDB featuring dealership discovery, customer reviews, and AI-powered sentiment analysis.
 
@@ -15,16 +15,16 @@ Full-stack microservices application that enables users to explore car dealershi
 
 **Key Technologies:** Django | React | Node.js | MongoDB | NLTK | Docker
 
-## 📋 Features
+##  Features
 
 **Core Functionality:**
-- 🏢 **Dealership Directory** - 50+ dealerships across multiple states with location-based search
-- 🚗 **Vehicle Inventory** - Car catalog with make/model management and search filters  
-- 📝 **Review System** - Customer reviews with AI sentiment analysis (NLTK/VADER)
-- 👤 **User Management** - Registration, authentication, and profile management
-- 📱 **Responsive Design** - Mobile-optimized interface with Bootstrap styling
+-  **Dealership Directory** - 50+ dealerships across multiple states with location-based search
+-  **Vehicle Inventory** - Car catalog with make/model management and search filters  
+-  **Review System** - Customer reviews with AI sentiment analysis (NLTK/VADER)
+-  **User Management** - Registration, authentication, and profile management
+-  **Responsive Design** - Mobile-optimized interface with Bootstrap styling
 
-### 🎯 Live Application Demo
+###  Live Application Demo
 
 <img src="screenshots/deployed_landingpage.png" alt="Landing Page" width="60%">
 
